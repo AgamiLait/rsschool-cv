@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="/rsschool-cv/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <div class="container" >
+      <header class="header">
+         <section class="heared__name">
+            VLAD BODNAR
+         </section>
+         <section class="heared__img">
+            <img class="img" src="/rsschool-cv/assets/img/illustration-of-a-young.jpg" alt="ava">
+         </section>
+      </header>
+      <main class="main">
+         <section class="block information" >
+            <h2 class="information__label" >Informations</h2>
+            <h3 class="information__prelabel" >About Me</h3>
+            <p class="information__text" >My name is Vlad. I want to try
+               become a front-end developer. I will do what I can.</p>
+         </section>
+         <section class="block skills" >
+            <h2 class="skills__programming" >Programming</h2>
+            <p class="skills__text" >JS - elementary </p>
+            <h3 class="skills__programming" >Others skills</h3>
+            <p class="skills__text" >HTML, CSS, SCSS</p>
+         </section>
+         <section class="block language" >
+            <h2 class="language__label" >language</h2>
+            <ul class="language__block" >
+               <li >Russion(native speaker)</li>
+               <li>English(Elementary)</li>
+            </ul>
+         </section>
+         <section class="block education" >
+            <h2 class="education__label" >Education</h2>
+            <p class="education__text" >Belarusian National Technical University</p>
+         </section>
+         <section class="block" >
+            <ul class="contact" > <h2 class="contact__label">Contact</h2> 
+               <li class="contact__numder" >+375292659100</li>
+               <li class="contact__mail"><a href="lisnik185@gmail.com">lisnik185@gmail.com</a></li>
+               <li class="contact__git"><a href="https://github.com/AgamiLait/AgamiLait">My github </a></li>
+               <li class="contact__geo">Minsk</li>
+               <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a><a href="https://yandex.by/maps/157/minsk/?ll=27.561481%2C53.902496&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.by/map-widget/v1/-/CCUueRszCC" width="500" height="350" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </ul>
+         </section>
+         <section class="code" >
+            <h2 class="code__label" >Code JS</h2>
+            <p class="code__text" >
+               let users = 5; <br>
+               users += 3;<br>
+               alert(users);<br>
+               users *= 2;<br>
+               alert(users);<br>
+               users += 1 + 2;<br>
+               alert(users);<br>
+            </p>
+            <button class="but">Enable code</button>
+         </section>
+      </main>
+      <footer>
+         <a target="_blank" href="https://rs.school/js/"><img class="href__school" src="/rsschool-cv/assets/img/rs_school-og.png" alt=""></a>
+      </footer>
+      <script class="script">
+         const someButton = document.querySelector('button');
+         if (someButton) {
+            let someNum = 0;
+            someButton.addEventListener("click", function (e) {
+               let users = 5;
+               users += 3;
+               alert(users);
+               users *= 2;
+               alert(users);
+               users += 1 + 2;
+               alert(users);
+            });
+         }
+      </script>
+   </div>
+</body>
+</html>
