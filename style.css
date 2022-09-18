@@ -1,0 +1,349 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   /* по умолчанию */
+   /* font-size: 16px;  */
+}
+body {
+   line-height: 1;
+   color: #fff;
+   background-color: #333;
+   font-family: "Roboto";
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ------------------------------ */
+.container {
+   margin: 0 auto;
+   max-width: 1680px;
+   padding: 100px;
+}
+.header {
+   display: flex;
+   margin-bottom: 50px;
+   flex-wrap: wrap;
+}
+.heared__name {
+   flex:0 1 50%;
+   font-weight: 700;
+   font-size: 90px;
+   line-height: 120px;
+   text-align: center;
+   align-self: center;
+   text-transform: uppercase;
+   margin-right: 70px;
+}
+.heared__img {
+   flex:0 1 35%;
+   height: 500px;
+   
+}
+
+.img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50px;
+}
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 100px;
+   row-gap: 40px;
+}
+.block {
+   flex: 0 1 45%;
+   
+}
+.information {
+   padding: 20px;
+   
+}
+.information__label {
+   font-size: 90px;
+   line-height: 120px;
+
+}
+.information__prelabel {
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 96px;
+}
+.information__text {
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+}
+.skills {
+   padding: 20px;
+}
+.skills__programming {
+   font-size: 90px;
+   line-height: 120px;
+}
+.skills__text {
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+}
+.language {
+   padding: 20px;
+}
+.language__label{
+   font-size: 90px;
+   line-height: 120px;
+}
+.language__block{
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+
+}
+.education {
+   padding: 20px;
+}
+.education__label{
+   font-size: 90px;
+   line-height: 120px;
+}
+.education__text {
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+}
+.contact {
+   padding: 20px;
+}
+.contact__label {
+   font-size: 90px;
+   line-height: 120px;
+}
+
+.contact__numder {
+   background: url(/rsschool-cv/assets/img/call_1.svg) 0px / 50px 50px no-repeat ;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+   padding-left:  70px;
+}
+.contact__mail {
+   background: url(/rsschool-cv/assets/img/email_1.svg) 0px / 50px 50px no-repeat ;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+   padding-left:  70px;
+}
+.contact__git{
+   background: url(/rsschool-cv/assets/img/github_1.svg) 0px / 50px 50px no-repeat ;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+   padding-left:  70px;
+}
+.contact__geo {
+   background: url(/rsschool-cv/assets/img/gps_1.svg) 0px / 50px 50px no-repeat ;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+   padding-left:  70px;
+}
+.code {
+   padding: 20px;
+   text-align: center;
+}
+.code__label {
+   font-size: 90px;
+   line-height: 120px;
+}
+.code__text {
+   font-weight: 300;
+   font-size: 48px;
+}
+.but{
+   margin-top: 60px;
+   padding: 10px;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 72px;
+   text-transform: capitalize;
+   border-radius: 30px;
+   background-color:green;
+   transition: 0.4s;
+}
+.but:hover{
+   position: relative;
+   top: 4px;
+   background-color:rgb(13, 211, 13);
+}
+footer {
+   position: relative;
+   padding: 90px;
+   display:flex;
+   justify-content: center;
+}
+.href__school{
+   border-radius:60px;
+   max-width: 800px;
+   transition: 0.3s; 
+   
+}
+
+.href__school:hover{
+   position: relative;
+   top: 4px;
+}
+@media (max-width: 1516.5px) {
+   .heared__img {
+      flex:0 1 35%;
+      height: 400px;
+      min-width: 400px;
+   }
+   .heared__name,
+   .information__label,
+   .skills__programming,
+   .language__label,
+   .education__label,
+   .contact__label,
+   .code__label,
+   .code__label{
+      font-size: 70px;
+      line-height: 90px;
+   }
+   .information__prelabel,
+   .information__text,
+   .skills__text,
+   .language__block,
+   .education__text,
+   .contact__numder,
+   .contact__mail,
+   .contact__git,
+   .contact__geo,
+   .code__text{
+      font-weight: 200px;
+      font-size: 28px;
+      line-height: 52px;
+   }
+}
+
+@media (max-width: 1233.5px) {
+   .block{
+      flex: 0 1 35%;
+   }
+   .main {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 20px;
+   }
+   .heared__name {
+      margin-right: 30px;
+   }
+}
+@media (max-width: 1233.5px) {
+   .heared__name,
+   .information__label,
+   .skills__programming,
+   .language__label,
+   .education__label,
+   .contact__label,
+   .code__label,
+   .code__label{
+      font-size: 55px;
+      line-height: 60px;
+   }
+   .information__prelabel,
+   .information__text,
+   .skills__text,
+   .language__block,
+   .education__text,
+   .contact__numder,
+   .contact__mail,
+   .contact__git,
+   .contact__geo,
+   .code__text
+   .but{
+      font-weight: 150px;
+      font-size: 21px;
+      line-height: 41px;
+   }
+   .contact__numder,
+   .contact__mail,
+   .contact__git,
+   .contact__geo{
+      background: url(/rsschool-cv/assets/img/gps_1.svg) 0px / 25px 25px no-repeat ;
+      padding-left:  30px;
+   }
+}
+@media (max-width: 870.5px) {
+   .href__school{
+      border-radius:30px;
+      max-width: 500px;
+      transition: 0.3s; 
+      
+   }
+   .container{
+      justify-content: center;
+   }
+}
+
+@media (max-width: 550.5px) {
+   .href__school{
+      border-radius:30px;
+      max-width: 320px;
+      transition: 0.3s; 
+      
+   }
+   
+}
+
+
+
+
